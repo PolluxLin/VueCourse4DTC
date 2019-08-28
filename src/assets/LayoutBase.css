@@ -1,0 +1,91 @@
+/**/
+/* 使用 Firefox 時, 如果把 sans-serif 放在 font-family 裡, 會造成字型 fallback 錯亂, 而無法達成預期的效果!! */
+a {
+	/*color: #F05F40;*/
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+hr {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f05f40;
+	margin: 0;
+}
+hr.dark {
+	border-color: #20c997;
+}
+hr.light {
+	border-color: #fff;
+}
+
+option {
+	font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
+		"Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",
+		Microsoft JhengHei, MingLiU, PMingLiU, DFKai-sb, SimSun;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.bigTable {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#app {
+	text-align: center;
+	color: #2c3e50;
+	font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
+		"Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",
+		Microsoft JhengHei, MingLiU, PMingLiU, DFKai-sb, SimSun;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.bpi01r { float: right; width: 400px; }
+.bpi01l { float: left; width: 400px; margin-right: 10px; }
+
+.lang-zh-Hant-TW {
+	font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
+		"Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",
+		Microsoft JhengHei, MingLiU, PMingLiU, DFKai-sb, SimSun;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pageContent {
+	margin-top: 56px;
+	text-align: center;
+}
+
+/* [https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=4A148C&secondary.color=880E4F] */
+/* [https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=9C27B0&secondary.color=1A237E] */
+#mainNav {
+	background-color: #9c27b0;
+}
+#mainNav .navbar-brand {
+	font-size: 1rem;
+	color: #fff;
+	font-weight: 400;
+}
+#mainNav .navbar-nav .nav-link {
+	font-size: 1rem;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+	color: rgba(255, 255, 255, 0.9);
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+	color: rgba(255, 255, 255, 1);
+	font-weight: 700;
+}
