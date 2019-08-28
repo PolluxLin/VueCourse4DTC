@@ -1,4 +1,7 @@
-# vuecourse
+# Vue Course
+
+## Project purpose
+This project is the entry course for DTC internal trainning.
 
 ## Project setup
 ```
