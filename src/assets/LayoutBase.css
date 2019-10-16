@@ -54,7 +54,7 @@ option {
 .bpi01r { float: right; width: 400px; }
 .bpi01l { float: left; width: 400px; margin-right: 10px; }
 
-.lang-zh-Hant-TW {
+.lang-zh-Hant-TW, .zhTW {
 	font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial,
 		"Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",
 		Microsoft JhengHei, MingLiU, PMingLiU, DFKai-sb, SimSun;

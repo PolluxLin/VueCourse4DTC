@@ -14,5 +14,6 @@ export default new Router({
     { path: '/Ch01/Sc03', name: 'cs0103', component:  () => import('./views/Ch01/Sc03.vue') },
     { path: '/Ch01/Sc04', name: 'cs0104', component:  () => import('./views/Ch01/Sc04.vue') },
     { path: '/Ch01/Sc05', name: 'cs0105', component:  () => import('./views/Ch01/Sc05.vue') },
+    { path: '/Ch01/Sc06', name: 'cs0106', component:  () => import('./views/Ch01/Sc06.vue') },
   ]
 })

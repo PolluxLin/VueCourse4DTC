@@ -12,6 +12,7 @@
 					<b-dropdown-item to="/Ch01/Sc03" replace>建立專案</b-dropdown-item>
 					<b-dropdown-item to="/Ch01/Sc04" replace>VSCode</b-dropdown-item>
 					<b-dropdown-item to="/Ch01/Sc05" replace>同場加映</b-dropdown-item>
+					<b-dropdown-item to="/Ch01/Sc06" replace>IIS 開發測試</b-dropdown-item>
 				</b-nav-item-dropdown>
 			</b-navbar-nav>
 		</b-collapse>
