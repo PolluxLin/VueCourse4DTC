@@ -32,10 +32,14 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+// load base CSS of Layout
 import "@/assets/LayoutBase.css";
 
-window.$ = require("jquery");
-//require("@/assets/jquery.blockUI.js");
+// Enable jQuery and BlockUI
+import $ from "jquery";
+window.$ = $;
+window.jQuery = $;
+require("@/assets/jquery.blockUI.js");
 
 import VueExpandableImage from "vue-expandable-image";
 Vue.use(VueExpandableImage);

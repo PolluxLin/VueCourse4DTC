@@ -13,11 +13,6 @@ import MainMenu from "@/components/navbarMainMenu.vue";
 export default {
 	name: "App",
 	components: { MainMenu },
-	created() {},
-	mounted() {
-		var targetId = "app";
-		console.log("jquery functional test > #" + targetId + ".offset().top = (" + $("#" + targetId).offset().top + ")");
-	},
 };
 /*
 $(function() {
